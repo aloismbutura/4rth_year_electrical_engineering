@@ -11,6 +11,7 @@ import numpy
 vector_a=numpy.array([5,6,7])
 vector_b=numpy.array([7,6,5]) 
 vector_c=numpy.array([1,2,3])
+empty_vector=numpy.array([0,0,0])
 
 #Identity_1-> Prove BXA=-AXB
 ##vector_result_first=numpy.cross(vector_a,vector_b)
@@ -44,4 +45,10 @@ vector_c=numpy.array([1,2,3])
 ##else:
 ##    print "Both vectors are unequal,law proven AX(BXC)!=(AXB)XC"
 ##    
-##VECTOR TRIPLE PRODUCTS
+#VECTOR TRIPLE PRODUCTS
+
+#Proof if A or B is zero the resultant vector is zero
+##vector_result_first=numpy.cross(empty_vector,vector_a)
+##print empty_vector
+##print vector_a
+##print vector_result_first
