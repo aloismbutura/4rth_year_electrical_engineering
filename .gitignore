@@ -1,2 +1,6 @@
 labs/Year_4/Telecoms/*/DS*.PNG
-labs/Year_4/Telecoms/*/*.py~
+*/*.py~
+*/*/*.py~
+*/*/*/*.py~
+*/*/*/*/*.py~
+
